@@ -1,3 +1,5 @@
+clc
+
 data = f;                                       % Create Data
 alpha = 0.7877;
 sigma = 0.1674;
@@ -23,7 +25,9 @@ hold off
 
  echi2e= ((hc-ednd2)./errorpdnd).^2;
  chi2e=sum(echi2e)
-[19:17, 13.4.2019] Emre Elibollar: clc
+ 
+ 
+ clc
 
 data = z;                                       % Create Data
 alpha = 0.9677;
